@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li{
+  @apply px-3 
+}
+.bg_prime{
+   background-color: aqua;
+}
+.bg_sec{
+  background-color: rgb(0, 230, 230);
+}
+.mobile-nav{
+  @apply fixed top-10 left-0 bg-gray-600 w-full h-1/4;
+}
