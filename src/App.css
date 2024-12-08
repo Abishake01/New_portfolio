@@ -14,3 +14,6 @@ header ul li{
 .mobile-nav{
   @apply fixed top-10 left-0 bg-gray-600 w-full h-1/4;
 }
+.project-des{
+  @apply absolute left-0 right-0 bottom-0 top-0 bg_prime duration-500 hover:opacity-100 opacity-0
+}
