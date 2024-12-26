@@ -3,7 +3,7 @@ import AboutImg from '../assets/whatsapp.png'
 export default function About(){
     return <section className='flex flex-col md:flex-row bg_sec px-10'>
         <div className=' py-5 md:w-1/2'>
-            <img src={AboutImg} /> 
+        <iframe src="https://lottie.host/embed/dbed5b8d-ece0-4c73-ad04-e16647c6e6ba/MJIjHXj5sG.lottie"></iframe>
         </div>
         <div className='flex justify-center md:w-1/2'>
         <div className='flex flex-col justify-center text-2xl '>

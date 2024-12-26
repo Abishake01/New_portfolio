@@ -1,6 +1,7 @@
 import HeroImg from '../assets/abishake.png'
 import { AiOutlineTwitter ,  AiOutlineLinkedin , AiOutlineGithub, AiOutlineInstagram} from "react-icons/ai";
 
+
 export default function Hero(){
     return <section className='flex flex-col md:flex-row justify-center bg_sec'>
          
@@ -16,6 +17,6 @@ export default function Hero(){
         </div>
         
         </div>
-        <img className='md:w-1/5 hidden md:block m-20' src={HeroImg}  />
+        <iframe className='h-96' src="https://lottie.host/embed/ffb116c1-a01f-44b1-ab4a-af628dd7edf3/1KrOvIVYie.lottie"></iframe>
     </section>
 }

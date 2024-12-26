@@ -9,7 +9,7 @@ export default function Header() {
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Project</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#">Certificates</a></li>
         </ul>
         </nav>
         {toggleMenu && <nav class="block md:hidden">
@@ -17,7 +17,7 @@ export default function Header() {
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Project</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#">Certificates</a></li>
         </ul>
         </nav>}
         <button onclick={() => setToggleMenu(!toggleMenu)} className="block md:hidden"></button>
